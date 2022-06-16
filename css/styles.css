@@ -1,0 +1,195 @@
+/* header */
+
+.colored-section{
+    background-color: #ff4c68;
+}
+.padding-section{
+    padding: 7% 15%;
+}
+.container-fluid {
+    padding: 3% 15%;
+
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+
+}
+
+/* body */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+p {
+    color: #8f8f8f;
+
+}
+/* title section */
+#title {
+    
+text-align: left;
+    color: #fff;
+    padding-bottom: 4.5rem;
+}
+#title .h1 {
+  
+    size: 3.5rem;
+    line-height: 1.5;
+ 
+}
+/* title image */
+.title-img {
+    transform: rotate(25deg);
+    width: 22%;
+    position: absolute;
+    right: 30%;
+}
+/* navbar */
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* feature section */
+#features {
+    
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1;   here z index can be removed as we know as features is below the title img; title-img will always come behind features*/
+}
+.feature-title{
+    font-size: 1.25rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials {
+    background-color: #ef8172;
+   
+
+}
+#testimonials-carousel{
+  
+    padding: 7% 15%;
+
+}
+/* testimonial image */
+.testimonial-img {
+    width: 20%;
+    border-radius: 60%;
+    margin: 3%;
+}
+
+.testimonial-title {
+    color: #fff;
+}
+
+
+
+/* press section */
+#press {
+    background-color: #ef8172;
+   
+}
+/* press image */
+.press-img {
+    width: 15%;
+    padding-bottom: 7%;
+    margin: 20px 15px 50px;
+}
+
+
+
+
+/* pricing section */
+#pricing {
+    padding: 100px;
+    /* text-align: center; */
+}
+
+.price-text{
+    /* color: #000;
+    size: 10%; */
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+.pricing-title{
+    font-size: 1.25rem;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.card-group {
+    display: inline;
+}
+/* to make site responsive */
+@media(max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+
+        width: 60%;
+    }
+}
+/* cta section */
+
+
+.cta-title {
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+   
+
+}
+
+.copyright {
+    
+    padding: 0 3% 2%;
+}
+ /* footer */
+
+.footer-icon {
+    padding: 4% 1% 1%;
+
+}
